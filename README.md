@@ -16,6 +16,8 @@ El sitio permite consultar categorías de productos, productos destacados, una g
 - Formulario enviado (`enviado.html`)
 - Nosotros (`nosotros.html`)
 - Currículum (`juan-daniel.html`)
+- ¿Qué opinas? (`que_en_penses.html`)
+- Opinión enviada (`que_en_penses_enviat.html`)
 
 ## Tecnologías utilizadas
 

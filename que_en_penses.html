@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore - ¿Qué opinas?</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>TechStore</h1>
+        <p>Tu tienda de tecnología de confianza</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="categorias.html">Categorias</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="que_en_penses.html">¿Qué opinas?</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+
+        <section>
+            <h2>¿Qué opinas de TechStore?</h2>
+
+            <p>
+                Rellena este formulario para contarnos tu opinion sobre nuestra tienda y los productos tecnológicos que ofrecemos.
+            </p>
+        </section>
+
+        <section>
+
+            <form action="que_en_penses_enviat.html" method="get" class="formulario">
+
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="valoracion">Valoración del 1 al 10:</label>
+                <input type="number" id="valoracion" name="valoracion" min="1" max="10" required>
+
+                <label for="categoria">Categoría que más te interesa</label>
+                <select name="categoria" id="categoria" required>
+                    <option value="ordenadores" selected>Ordenadores</option>
+                    <option value="componentes">Componentes</option>
+                    <option value="perifericos">Periféricos</option>
+                    <option value="moviles">Móviles</option>
+                </select>
+
+                <p>¿Qué servicios te parecen más útiles?</p>
+
+                <label>
+                    <input type="checkbox" name="servicios" value="asesoramiento" checked>
+                    Asesoramiento tecnológico
+                </label>
+
+                <label>
+                    <input type="checkbox" name="servicios" value="reparacion">
+                    Reparación de equipos
+                </label>
+
+                <label>
+                    <input type="checkbox" name="servicios" value="ofertas">
+                    Ofertas y promociones
+                </label>
+
+                <p>¿Cómo valorarías la web?</p>
+
+                <label for="">
+                    <input type="radio" name="opinion" value="muy_buena" checked>
+                    Muy buena
+                </label>
+
+                <label for="">
+                    <input type="radio" name="opinion" value="buena">
+                    Buena
+                </label>
+
+                <label for="">
+                    <input type="radio" name="opinion" value="mejorable">
+                    Mejorable
+                </label>
+
+                <label for="comentario">Comentario:</label>
+                <textarea name="comentario" id="comentario" placeholder="Escribe aquí tu opinión sobre TechStore..." required></textarea>
+
+                <button type="submit">Enviar opinión</button>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Proyecto transversal RA2 - Lenguaje de marcas</p>
+        <p>Autor: Daniel Rocha</p>
+    </footer>
+
+</body>
+</html>
