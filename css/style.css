@@ -1,0 +1,174 @@
+body {
+    font-family: Verdana, Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #1e1e2f;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #1e1e2f;
+}
+
+img {
+    width: 400px;
+    max-width: 100%;
+}
+
+footer {
+    background-color: #1e1e2f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.contenedor-categorias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.tarjeta {
+    width: 280px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+    background-color: #fafafa;
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.tarjeta h3 {
+    color: #1e1e2f;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.galeria img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border: 2px solid #333;
+}
+
+.formulario {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario input,
+.formulario select,
+.formulario textarea {
+    padding: 10px;
+    border: 1px solid #333;
+}
+
+.formulario textarea {
+    height: 120px;
+}
+
+.formulario button {
+    background-color: #1e1e2f;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #555;
+}
+
+.boton {
+    display: inline-block;
+    background-color: #1e1e2f;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin-top: 10px;
+}
+
+.boton:hover {
+    background-color: #555;
+}
+
+.tabla-cv {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.tabla-cv caption {
+    font-size: 24px;
+    color: #1e1e2f;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.tabla-cv th {
+    background-color: #1e1e2f;
+    color: white;
+    padding: 12px;
+}
+
+.tabla-cv td {
+    border: 1px solid #333;
+    padding: 10px;
+}

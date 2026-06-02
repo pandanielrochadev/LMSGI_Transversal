@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore - Contacto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>TechStore</h1>
+        <p>Tu tienda de tecnología de confianza</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="categorias.html">Categorías</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>Formulario de contacto</h2>
+
+            <p>
+                Rellena el siguiente formulario para solicitar información sobre nuestros productos.
+            </p>
+        </section>
+
+        <section>
+            <form action="enviado.html" method="get" class="formulario">
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" name="edad" min="10" max="100" required>
+
+                <label for="producto">Producto de interés:</label>
+                <select id="producto" name="producto">
+                    <option value="ordenador" selected>Ordenador</option>
+                    <option value="movil">Móvil</option>
+                    <option value="periferico">Periférico</option>
+                </select>
+
+                <p>Servicios que te interesan:</p>
+
+                <label>
+                    <input type="checkbox" name="servicios" value="reparacion" checked>
+                    Reparación
+                </label>
+
+                <label>
+                    <input type="checkbox" name="servicios" value="venta">
+                    Venta de productos
+                </label>
+
+                <label>
+                    <input type="checkbox" name="servicios" value="asesoramiento">
+                    Asesoramiento
+                </label>
+
+                <p>Tipo de cliente:</p>
+
+                <label>
+                    <input type="radio" name="cliente" value="particular" checked>
+                    Particular
+                </label>
+
+                <label>
+                    <input type="radio" name="cliente" value="empresa">
+                    Empresa
+                </label>
+
+                <label>
+                    <input type="radio" name="cliente" value="estudiante">
+                    Estudiante
+                </label>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" placeholder="Escribe aquí tu consulta..." required></textarea>
+
+                <button type="submit">Enviar formulario</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Proyecto transversal RA2 - Lenguaje de marcas</p>
+        <p>Autor: Daniel Rocha</p>
+    </footer>
+
+</body>
+
+</html>
